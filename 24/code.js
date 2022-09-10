@@ -23,7 +23,7 @@ function onclick(){
                         for (var z = 0; z < operations.length; ++z) {
                             var abcd = operations[z](abc, d);
                             if (abcd == 24)
-                            formula += translate1(a, b, c, d, x, y, z)+'<br>';
+                                formula += translate1(a, b, c, d, x, y, z)+'<br>';
                         }
                     }
                 }
@@ -37,7 +37,7 @@ function onclick(){
                         for (var z = 0; z < operations.length; ++z) {
                             var abcd = operations[z](ab, cd);
                             if (abcd == 24)
-                            formula += translate2(a, b, c, d, x, y, z)+'<br>';
+                                formula += translate2(a, b, c, d, x, y, z)+'<br>';
                         }
                     }
                     break;
@@ -96,6 +96,3 @@ function translate2 (a, b, c, d, x, y, z) {
     } 
     return abcd;    
 }
-
-
-
