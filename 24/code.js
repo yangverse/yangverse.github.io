@@ -27,6 +27,7 @@ function onclick(){
                         }
                     }
                 }
+                if (i > 0) continue;//01==23; 02==13; 03==12
                 for (var k = 0; k < n.length; ++k) {
                     var c = n[k];
                     if (c == a || c == b) continue;
