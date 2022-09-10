@@ -17,7 +17,7 @@ function onclick(){
                 for (var k = 0; k < n.length; ++k){
                     if (k == i || k == j) continue;
                     var c = n[k];
-                    var d = n[7-i-j-k];
+                    var d = n[6-i-j-k];
                     for (var y = 0; y < operations.length; ++y) {
                         var abc = operations[y](ab, c);
                         for (var z = 0; z < operations.length; ++z) {
@@ -31,7 +31,7 @@ function onclick(){
                 for (var k = 0; k < n.length; ++k) {
                     if (k == i || k == j) continue;
                     var c = n[k];
-                    var d = n[7-i-j-k];
+                    var d = n[6-i-j-k];
                     for (var y = 0; y < operations.length; ++y) {
                         var cd = operations[y](c, d);
                         for (var z = 0; z < operations.length; ++z) {
