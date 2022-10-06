@@ -1,0 +1,15 @@
+input:
+    normal_hours: 8
+    normal_rate: 10
+    overtime_rate: 20
+    hours_worked: 9
+output:
+    earned: 100
+
+input:
+    normal_hours: 8
+    normal_rate: 10
+    overtime_rate: 20
+    hours_worked: 8
+output:
+    earned: 80
